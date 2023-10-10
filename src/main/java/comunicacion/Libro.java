@@ -53,7 +53,7 @@ public class Libro extends Escrito{
 
     @Override
     public int palabrasTotales(int e){
-        return e;
+        return e * this.getPaginas() * 2;
     }
 
     @Override
