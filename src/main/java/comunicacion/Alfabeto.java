@@ -42,4 +42,9 @@ public class Alfabeto extends Pictograma{
         }
         return alfabeto;
     }
+
+    @Override
+    private int palabrasTotales(int e){
+        return e;
+    }
 }

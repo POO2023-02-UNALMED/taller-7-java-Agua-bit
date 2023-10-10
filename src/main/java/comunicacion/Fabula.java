@@ -30,4 +30,10 @@ public class Fabula extends Escrito{
     public String interpretacion(){
         return interpretacion;
     }
+
+    @Override
+    public int palabrasTotales(int e){
+
+        return e;
+    }
 }

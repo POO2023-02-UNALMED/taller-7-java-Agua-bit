@@ -62,5 +62,9 @@ public class Tesis extends Escrito{
         return interpretacion;
     }
 
+    @Override
+    public int palabrasTotales(int e){
+        return e;
+    }
 
 }
