@@ -30,7 +30,15 @@ public class Alfabeto extends Pictograma{
         this.interpretacion = interpretacion;
     }
 
-    public String interpretacion(String interpretacion){
+    public String interpretacion({
         return interpretacion;
+    }
+
+    public String toString(){
+        String alfabeto = "";
+        for(i=0, i<this.letras.size() ,i++){
+            alfabeto += letras[i] +", ";
+        }
+        return alfabeto;
     }
 }

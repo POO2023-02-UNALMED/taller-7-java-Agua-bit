@@ -27,7 +27,7 @@ public class Fabula extends Escrito{
         this.interpretacion = interpretacion;
     }
 
-    public String interpretacion(String interpretacion){
+    public String interpretacion({
         return interpretacion;
     }
 }
