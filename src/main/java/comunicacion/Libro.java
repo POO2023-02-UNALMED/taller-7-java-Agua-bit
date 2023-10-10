@@ -55,4 +55,9 @@ public class Libro extends Escrito{
     public int palabrasTotales(int e){
         return e;
     }
+
+    @Override
+    public String toString(){
+        return null;
+    }
 }

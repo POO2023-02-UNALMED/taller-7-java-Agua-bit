@@ -67,4 +67,10 @@ public class Tesis extends Escrito{
         return e;
     }
 
+    @Override
+    public String toString(){
+        return null;
+    }
+}
+
 }

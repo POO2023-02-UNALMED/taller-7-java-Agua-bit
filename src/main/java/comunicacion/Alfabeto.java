@@ -47,4 +47,10 @@ public class Alfabeto extends Pictograma{
     private int palabrasTotales(int e){
         return e;
     }
+
+    @Override
+    public String toString(){
+        return null;
+    }
+}
 }

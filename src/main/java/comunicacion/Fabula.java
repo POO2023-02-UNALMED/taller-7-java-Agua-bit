@@ -36,4 +36,10 @@ public class Fabula extends Escrito{
 
         return e;
     }
+
+    @Override
+    public String toString(){
+        return null;
+    }
+}
 }
