@@ -36,4 +36,8 @@ public class Periodico extends Escrito{
     public void setInterpretacion(String interpretacion) {
         this.interpretacion = interpretacion;
     }
+
+    public String interpretacion(String interpretacion){
+        return interpretacion;
+    }
 }
