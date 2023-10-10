@@ -37,7 +37,7 @@ public class Periodico extends Escrito{
         this.interpretacion = interpretacion;
     }
 
-    public String interpretacion({
+    public String interpretacion(){
         return interpretacion;
     }
 }

@@ -30,7 +30,7 @@ public class Alfabeto extends Pictograma{
         this.interpretacion = interpretacion;
     }
 
-    public String interpretacion({
+    public String interpretacion(){
         return interpretacion;
     }
 
