@@ -64,12 +64,13 @@ public class Tesis extends Escrito{
 
     @Override
     public int palabrasTotales(int e){
-        return e;
+        return e * this.getPaginas() * 5;
     }
 
     @Override
     public String toString(){
-        return null;
+        return (this.getOrigen() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n" + this.getIdea() + "\n" +
+                this.getArgumentos().length + "\n" +this.getConclusion() + "\n" + this.getReferencias());
     }
 }
 
