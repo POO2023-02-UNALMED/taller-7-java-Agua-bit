@@ -58,6 +58,7 @@ public class Libro extends Escrito{
 
     @Override
     public String toString(){
-        return null;
+        return (this.getOrigen() + "\n" + this.getTitulo() + "\n" + this.getAutor() + "\n" + this.getPaginas() + "\n" +
+                this.getCo_autor() + "\n" + this.getEditorial() + "\n" + this.getEdicion());
     }
 }
