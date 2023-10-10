@@ -42,8 +42,10 @@ public class Alfabeto extends Pictograma{
         }
         return alfabeto;
     }
-    
 
+    public int cantidadLetras(){
+        return letras.length;
+    }
 
 }
 
