@@ -35,12 +35,7 @@ public class Alfabeto extends Pictograma{
     }
 
     public String toString(){
-        String alfabeto = "";
-        int i;
-        for (i=0; i<this.letras.length-1; i++) {
-            alfabeto += letras[i] + ", ";
-        }
-        return alfabeto;
+        return String.join(", ", letras);
     }
 
     public int cantidadLetras(){
